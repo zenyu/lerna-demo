@@ -1,9 +1,9 @@
 {
     "name": "@ruhnn/fetcher",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependencies": {
-        "@ruhnn/util": "^0.0.1",
         "@ruhnn/constant": "^0.0.1",
+        "@ruhnn/util": "^0.0.2",
         "antd": "^3.23.6",
         "antd-mobile": "^2.3.1"
     },

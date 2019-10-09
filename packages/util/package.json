@@ -1,6 +1,6 @@
 {
     "name": "@ruhnn/util",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "./dist/index.js",
     "dependencies": {
         "moment": "^2.24.0"
