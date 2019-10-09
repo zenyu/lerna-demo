@@ -1,7 +1,12 @@
 {
-    "name": "fetcher",
-    "version": "0.0.1",
-    "dependencies": {
-        
-    }
+  "name": "fetcher",
+  "version": "0.0.1",
+  "dependencies": {},
+  "main": "config.overwrite.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
