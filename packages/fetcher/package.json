@@ -1,12 +1,18 @@
 {
-  "name": "fetcher",
-  "version": "0.0.1",
-  "dependencies": {},
-  "main": "config.overwrite.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "name": "@ruhnn/fetcher",
+    "version": "0.0.1",
+    "dependencies": {
+        "@ruhnn/util": "^0.0.1",
+        "@ruhnn/constant": "^0.0.1",
+        "antd": "^3.23.6",
+        "antd-mobile": "^2.3.1"
+    },
+    "scripts": {
+        "pack": "ru pack -m -e development"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "main": "./dist/index.js",
+    "module": "./es/index.js"
 }

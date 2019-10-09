@@ -1,11 +1,12 @@
 {
-  "name": "constant",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "@ruhnn/constant",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/index.js",
+    "scripts": {
+        "pack": "ru pack -m -e development"
+    },
+    "author": "",
+    "license": "ISC",
+    "module": "./es/index.js"
 }
