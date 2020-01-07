@@ -10,3 +10,4 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 console.log(_moment.default);
 console.log('aaa');
 console.log('bbb');
+console.log('ccc');
