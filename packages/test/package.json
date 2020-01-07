@@ -6,7 +6,7 @@
         "moment": "^2.24.0"
     },
     "scripts": {
-        "prepublish": "NODE_ENV=es6 npx babel  ./src -d ./es"
+        "prepublish": "NODE_ENV=es6 npx babel  ./src -d ./es --config-file=../../babel.config.js"
     },
     "module": "./es/index.js",
     "main": "./dist/index.js"
