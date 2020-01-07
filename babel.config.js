@@ -14,7 +14,6 @@ module.exports = {
             : ['react-app', {helpers}],
     ],
     'plugins': [
-        process.env.NODE_ENV === 'ruhnn' ? '@babel/plugin-transform-runtime' : '',
         ['import', {libraryName: 'antd', libraryDirectory: 'es', style: true}, 'ant'],
         ['import', {libraryName: 'antd-mobile', libraryDirectory: 'es', style: true}, 'antd-mobile'],
         ['@babel/plugin-proposal-decorators', {'legacy': true}],
