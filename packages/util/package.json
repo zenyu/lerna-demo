@@ -4,5 +4,6 @@
     "main": "./dist/index.js",
     "dependencies": {
         "moment": "^2.24.0"
-    }
+    },
+    "gitHead": "7eb96433d0c474c24ce18e45510c9d17aa58079b"
 }
