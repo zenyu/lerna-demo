@@ -24,13 +24,10 @@ if (process.env.NODE_ENV === 'development') {
 // 测试库
 if (process.env.NODE_ENV === 'test' || process.env.ori === 'debug') {
     const lc = 'http://www.layercake.com.cn';
-    const isLayercake = ~host.indexOf(lc) && window.location.port;
     other = {
-        login: isLayercake
-            ? `${host}/login/`
-            : 'http://192.168.11.117/login',
+        login: '/login',
         lc,
-        sso: isLayercake ? `${host}/sso/data` : 'http://192.168.11.117:30004',
+        sso: '/sso/data',
     };
 }
 
