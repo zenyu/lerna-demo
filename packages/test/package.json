@@ -1,6 +1,6 @@
 {
     "name": "@ruhnn/test",
-    "version": "0.0.9-alpha.0",
+    "version": "0.0.10",
     "dependencies": {
         "jquery": "^3.4.1",
         "moment": "^2.24.0"
@@ -10,5 +10,5 @@
     },
     "module": "./es/index.js",
     "main": "./dist/index.js",
-    "gitHead": "021df7fa92c465edc75e79e4520a1af2543beee2"
+    "gitHead": "fa19419196a2aca97aedbcf3be0a21cdcc61db17"
 }
