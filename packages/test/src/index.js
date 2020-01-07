@@ -5,4 +5,5 @@ $('.a').class('aa');
 
 console.log(moment);
 console.log('aaa');
+console.log('bbb');
 
