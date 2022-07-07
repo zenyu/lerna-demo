@@ -3,7 +3,7 @@
     "version": "0.0.11-beta.1",
     "dependencies": {
         "jquery": "^3.4.1",
-        "moment": "^2.24.0"
+        "moment": "^2.29.4"
     },
     "scripts": {
         "prepublish": "NODE_ENV=es6 npx babel  ./src -d ./es --config-file=../../babel.config.js"
